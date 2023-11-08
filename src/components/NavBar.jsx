@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { NavLink } from "react-router-dom";
 
 function NavBar() {
@@ -51,14 +50,3 @@ function NavBar() {
 }
 
 export default NavBar;
-=======
-import React from 'react'
-
-function NavBar() {
-  return (
-    <div>NavBar</div>
-  )
-}
-
-export default NavBar
->>>>>>> main
