@@ -6,7 +6,7 @@ import Card from "react-bootstrap/Card";
 import Stack from "react-bootstrap/Stack";
 import { CardImgOverlay, Col, Row } from "react-bootstrap";
 
-const MaasaiMara = () => {
+const MaasaiMara = ({handleBookTicket}) => {
   const [showPackages, setShowPackages] = useState(false);
 
   const destination = Maasaimara.find(
@@ -74,6 +74,7 @@ const MaasaiMara = () => {
                         fontSize: "15px",
                         backgroundColor: "#1a4301",
                       }}
+                      onClick={()=>handleBookTicket}
                     >
                       Book Now!
                     </Button>
