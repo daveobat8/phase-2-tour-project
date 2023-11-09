@@ -13,7 +13,7 @@ const Availablepackages = () => {
   const  handleBookTicket = <Routes><Route path="/userform" element={<Userform/>}/></Routes>
   return (
     <Stack gap={3} style={{ padding: "20px", backgroundColor: "#efefef" }}>
-      <MaasaiMara className="p-2" handleBookTicket={handleBookTicket}/>
+      <MaasaiMara className="p-2" />
       <Diani className="p-2" />
       <Malindi className="p-2" />
       <Nakuru className="p-2" />
