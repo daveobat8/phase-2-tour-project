@@ -1,4 +1,3 @@
-
 import { NavLink } from "react-router-dom";
 
 function NavBar() {
@@ -42,6 +41,9 @@ function NavBar() {
                   Offers
                 </NavLink>
               </li>
+              <li>
+                <NavLink className="nav-link" to="/morepackages"></NavLink>
+              </li>
             </ul>
           </div>
         </div>
@@ -51,5 +53,3 @@ function NavBar() {
 }
 
 export default NavBar;
-
-

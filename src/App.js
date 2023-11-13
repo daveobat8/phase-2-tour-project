@@ -6,6 +6,8 @@ import Destination from "./components/Destination";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Userform from "./components/Userform";
+//import { destinations } from "./components/PackagesChild/PackageData";
+import PackagesCard from "./components/PackagesChild/PackagesCard";
 
 function App() {
   return (
@@ -17,7 +19,10 @@ function App() {
         <Route path="/destination" element={<Destination />} />
         <Route path="/availablepackages" element={<Availablepackages />} />
         <Route path="/offers" element={<Offers />} />
+
+        <Route path="/morepackages/:id" element={<PackagesCard />} />
       </Routes>
+
       <Userform />
       <Footer />
     </>
