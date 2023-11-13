@@ -33,7 +33,7 @@ const Userform = () => {
     fetch("http://localhost:3003/bookings", {
       method: "POST",
       headers: {
-        "content-type": "applications/json",
+        "content-type": "application/json",
       },
       body: JSON.stringify(formData),
     }).then((resp) => {
@@ -47,13 +47,10 @@ const Userform = () => {
 
   function handleChange(e) {
     const { name, value } = e.target;
-    const selectedDestination = selectDestination.find(
-      (destination) => destination.id === parseInt(value)
-    );
 
     setFormData((prevData) => ({
       ...prevData,
-      [name]: selectedDestination,
+      [name]: value,
     }));
   }
 

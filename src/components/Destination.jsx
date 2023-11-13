@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import Stack from "react-bootstrap/Stack";
 import { NavLink } from "react-router-dom";
 import { Button, Card, CardText, Container, Row, Col } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
 
 const Destination = () => {
   const [travels, setTravels] = useState([]);

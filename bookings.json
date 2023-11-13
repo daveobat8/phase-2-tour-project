@@ -27,6 +27,17 @@
     },
     {
       "id": 4
+    },
+    {
+      "destination": "",
+      "firstName": "Real",
+      "lastName": "Boy",
+      "phone": "34352",
+      "email": "maganga@me.com",
+      "checkIn": "2023-11-08",
+      "checkOut": "2023-11-23",
+      "people": "2",
+      "id": 5
     }
   ]
 }
