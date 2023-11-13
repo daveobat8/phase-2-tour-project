@@ -1,0 +1,26 @@
+{
+  "bookings": [
+    {
+      "id": 1,
+      "destination": "Maasai Mara",
+      "firstName": "John",
+      "lastName": "Doe",
+      "phone": "0700000000",
+      "email": "johndoe@me.com",
+      "checkIn": "12/12/2012",
+      "checkOut": "1/1/2013",
+      "people": 5
+    },
+    {
+      "destination": "Malindi",
+      "firstName": "Nelly",
+      "lastName": "Chepkemoi",
+      "phone": "7890935567",
+      "email": "nellychepkem2015@gmail.com",
+      "checkIn": "2023-11-14",
+      "checkOut": "2023-11-15",
+      "people": "2",
+      "id": 2
+    }
+  ]
+}
