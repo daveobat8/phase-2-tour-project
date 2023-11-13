@@ -56,6 +56,9 @@ function NavBar() {
                   Book a Trip
                 </NavLink>
               </li>
+              <li>
+                <NavLink className="nav-link" to="/morepackages"></NavLink>
+              </li>
             </ul>
           </div>
         </div>

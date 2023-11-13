@@ -1,5 +1,3 @@
-import { Routes, Route } from "react";
-
 import React, { useState } from "react";
 import { NavLink, Route, Routes } from "react-router-dom";
 import { destinations } from "./PackagesChild/PackageData";
@@ -9,7 +7,17 @@ import { Col, Row } from "react-bootstrap";
 import PackagesCard from "./PackagesChild/PackagesCard";
 import Stack from "react-bootstrap/Stack";
 
-const Availablepackages = () => {
+const AvailablePackages = () => {
+  const [selectedDestination, setSelectedDestination] = useState();
+
+  const togglePackages = (destinationId) => {
+    setSelectedDestination(
+      selectedDestination === destinationId ? null : destinationId
+    );
+  };
+
+  console.log(selectedDestination);
+
   return (
     <>
       <Row xs={1} md={2} className="g-4">
