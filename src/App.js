@@ -6,12 +6,11 @@ import Destination from "./components/Destination";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Userform from "./components/Userform";
-//import { destinations } from "./components/PackagesChild/PackageData";
-import PackagesCard from "./components/PackagesChild/PackagesCard";
+import "./App.css";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <NavBar />
 
       <Routes>
@@ -23,9 +22,8 @@ function App() {
         <Route path="/morepackages/:id" element={<PackagesCard />} />
       </Routes>
 
-      <Userform />
       <Footer />
-    </>
+    </div>
   );
 }
 
