@@ -1,6 +1,5 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import Stack from "react-bootstrap/Stack";
 import { NavLink } from "react-router-dom";
 import { Button, Card, CardText, Container, Row, Col } from "react-bootstrap";
 
@@ -8,7 +7,7 @@ const Destination = () => {
   const [travels, setTravels] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3001/travels")
+    fetch("http://localhost:8000/travels")
       .then((response) => response.json())
       .then((travels) => {
         setTravels(travels);

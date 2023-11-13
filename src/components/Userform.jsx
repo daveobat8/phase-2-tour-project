@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Container from "react-bootstrap/Container";
+import SearchBar from "./SearchBar";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
@@ -19,7 +19,7 @@ const Userform = () => {
   });
 
   useEffect(() => {
-    fetch("http://localhost:3001/travels")
+    fetch("http://localhost:8000/travels")
       .then((resp) => resp.json())
       .then((data) => {
         const updateDestination = data.map((item) => item.destination);
@@ -30,7 +30,7 @@ const Userform = () => {
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("http://localhost:3003/bookings", {
+    fetch("http://localhost:8002/bookings", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -56,6 +56,7 @@ const Userform = () => {
 
   return (
     <div>
+      <SearchBar />
       <Form
         onSubmit={(event) => handleSubmit(event)}
         className="form bg-dark text-white"
