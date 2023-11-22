@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/phase-2-tour-project/static/css/main.c8c496aa.css",
-    "main.js": "/phase-2-tour-project/static/js/main.099b5e68.js",
+    "main.js": "/phase-2-tour-project/static/js/main.d56a1f4a.js",
     "static/js/787.3911950a.chunk.js": "/phase-2-tour-project/static/js/787.3911950a.chunk.js",
     "static/media/logo-color.png": "/phase-2-tour-project/static/media/logo-color.ef18df03e8fdfa0cec47.png",
     "index.html": "/phase-2-tour-project/index.html",
     "main.c8c496aa.css.map": "/phase-2-tour-project/static/css/main.c8c496aa.css.map",
-    "main.099b5e68.js.map": "/phase-2-tour-project/static/js/main.099b5e68.js.map",
+    "main.d56a1f4a.js.map": "/phase-2-tour-project/static/js/main.d56a1f4a.js.map",
     "787.3911950a.chunk.js.map": "/phase-2-tour-project/static/js/787.3911950a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8c496aa.css",
-    "static/js/main.099b5e68.js"
+    "static/js/main.d56a1f4a.js"
   ]
 }
